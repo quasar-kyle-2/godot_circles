@@ -14,5 +14,6 @@ margin_right = 857.0
 margin_bottom = 46.0
 max_value = 1280.0
 rounded = true
+ticks_on_borders = true
 script = ExtResource( 2 )
 [connection signal="value_changed" from="NumOrbitsSlider" to="NumOrbitsSlider" method="_on_NumOrbitsSlider_value_changed"]
